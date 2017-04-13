@@ -12,6 +12,7 @@
 		E0C5D6391E90DF4C00E4FAD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C5D6371E90DF4C00E4FAD2 /* Main.storyboard */; };
 		E0C5D63B1E90DF4C00E4FAD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C5D63A1E90DF4C00E4FAD2 /* Assets.xcassets */; };
 		E0C5D63E1E90DF4C00E4FAD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C5D63C1E90DF4C00E4FAD2 /* LaunchScreen.storyboard */; };
+		E0C5D6461E90E1EC00E4FAD2 /* WhattodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C5D6451E90E1EC00E4FAD2 /* WhattodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E0C5D63A1E90DF4C00E4FAD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0C5D63D1E90DF4C00E4FAD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0C5D63F1E90DF4C00E4FAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C5D6451E90E1EC00E4FAD2 /* WhattodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhattodoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E0C5D6331E90DF4C00E4FAD2 /* AppDelegate.swift */,
 				E0C5D6351E90DF4C00E4FAD2 /* ViewController.swift */,
 				E0C5D6371E90DF4C00E4FAD2 /* Main.storyboard */,
+				E0C5D6451E90E1EC00E4FAD2 /* WhattodoViewController.swift */,
 				E0C5D63A1E90DF4C00E4FAD2 /* Assets.xcassets */,
 				E0C5D63C1E90DF4C00E4FAD2 /* LaunchScreen.storyboard */,
 				E0C5D63F1E90DF4C00E4FAD2 /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					E0C5D62F1E90DF4C00E4FAD2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AB9NXTEVT6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0C5D6361E90DF4C00E4FAD2 /* ViewController.swift in Sources */,
+				E0C5D6461E90E1EC00E4FAD2 /* WhattodoViewController.swift in Sources */,
 				E0C5D6341E90DF4C00E4FAD2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AB9NXTEVT6;
 				INFOPLIST_FILE = 0402_whattodo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kelly.-402-whattodo";
@@ -270,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AB9NXTEVT6;
 				INFOPLIST_FILE = 0402_whattodo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kelly.-402-whattodo";
